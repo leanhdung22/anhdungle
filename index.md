@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Anh Dung LE
-landing-title: Hi, my name is Matheus
+landing-title: Hi, my name is Dung
 description: 
 image: 
 author: Anh Dung LE
