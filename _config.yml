@@ -6,17 +6,17 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title-bold: Matheus
-title-normal: CAVALCANTE
-email: matheus.de-araujo-cavalcante@phelma.grenoble-inp.fr
+title-bold: Anh-Dung
+title-normal: LE
+email: leanhdung0205@gmail.com
 description:  
-url: "https://suehtamacv.github.io" 
-author: Matheus CAVALCANTE
-street_address: 28 Rue Colonel Bougault
-city: Grenoble
-zip_code: F-38100
+url: "https://leanhdung22.github.io" 
+author: Anh-Dung LE
+street_address: 11 Rue Beaugeard Lancelot
+city: Rennes
+zip_code: F-35700
 country: France
-phone: +33 06 95 85 43 85
+phone: +33 00 00 00 00 00 
 
 # Plugins
 gems:
@@ -32,11 +32,11 @@ tiles-count: 5
 # Social settings
 500px_url: 
 facebook_url: 
-github_url: https://github.com/suehtamacv
+github_url: https://github.com/leanhdung22
 gitlab_url: 
 googleplus_url: 
 instagram_url: 
-linkedin_url: http://linkedin.com/in/suetamac
+linkedin_url: https://www.linkedin.com/in/dung-le-793111108/
 pinterest_url: 
 slack_url: 
 twitter_url: 
