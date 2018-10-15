@@ -1,7 +1,7 @@
 ---
-titulo: Análise do Impacto do Ruído ASE em Redes Ópticas Elásticas Transparentes Utilizando Múltiplos Formatos de Modulação
-ano: 2015
-evento: XXXIII Simpósio Brasileiro de Telecomunicações
+titulo: Wideband Left-handed Metamaterial: Analysis, Modelling and Testing of Antenna Gain Enhancement
+ano: 2016
+evento: Encontro Anual do Iecom em Comunicações, Redes e Criptografia
 autores:
     - nome: Matheus de Araújo Cavalcante
     - nome: Helder Alves Pereira
