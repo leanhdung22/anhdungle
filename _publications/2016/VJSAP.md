@@ -1,5 +1,5 @@
 ---
-titulo: Nova Proposta para Otimização da Função Custo do Algoritmo de Roteamento por Série de Potências
+titulo: Wideband Left-handed Metamaterial: Analysis, Modelling and Testing of Antenna Gain Enhancement
 ano: 2016
 evento: Encontro Anual do Iecom em Comunicações, Redes e Criptografia
 autores:
