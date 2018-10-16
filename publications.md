@@ -11,11 +11,11 @@ nav-menu: yes
 <p> Below there is my chronological publication list. </p>
 
 	<div class="inner">
-	{% assign artigosporano = site.publications | group_by:"ano" | sort:"name" | reverse %}
+	{% assign artigosporano = site.publications | group_by:"year" | sort:"name" | reverse %}
 	{% for item in artigosporano %}
 	{% assign sorted_artigos = item.items | sort:"title" %}
 	{% for artigo in sorted_artigos %}
-	{% capture this_year %}{{ artigo.ano }}{% endcapture %}
+	{% capture this_year %}{{ artigo.year }}{% endcapture %}
 	{% if forloop.first %}
 	<p>
 	<div class="major">
@@ -28,12 +28,12 @@ nav-menu: yes
 			<h3>{{ artigo.title }}</h3>
 			<a data-toggle="collapse" href="#{{ item.name }}-{{ forloop.index }}"><i class="fa fa-caret-down"></i> Details</a>
 			<p><div id="{{ item.name }}-{{ forloop.index }}" class="panel-collapse collapse">
-			  <p>{{ artigo.evento }}, {{ artigo.ano }}.</p>
+			  <p>{{ artigo.event }}, {{ artigo.year }}.</p>
 			  <div>
 			  Authors:
 				<ul>
-				  {% for autor in artigo.autores %}
-				  <li> {{ autor.nome }} </li>
+				  {% for autor in artigo.authors %}
+				  <li> {{ autor.name }} </li>
 				  {% endfor %}
 				</ul>
 			  </div>
