@@ -13,7 +13,7 @@ nav-menu: yes
 	<div class="inner">
 	{% assign artigosporano = site.publications | group_by:"ano" | sort:"name" | reverse %}
 	{% for item in artigosporano %}
-	{% assign sorted_artigos = item.items | sort:"titulo" %}
+	{% assign sorted_artigos = item.items | sort:"title" %}
 	{% for artigo in sorted_artigos %}
 	{% capture this_year %}{{ artigo.ano }}{% endcapture %}
 	{% if forloop.first %}
@@ -25,7 +25,7 @@ nav-menu: yes
 		<ul>
 	{% endif %}
 		  <li>
-			<h3>{{ artigo.titulo }}</h3>
+			<h3>{{ artigo.title }}</h3>
 			<a data-toggle="collapse" href="#{{ item.name }}-{{ forloop.index }}"><i class="fa fa-caret-down"></i> Details</a>
 			<p><div id="{{ item.name }}-{{ forloop.index }}" class="panel-collapse collapse">
 			  <p>{{ artigo.evento }}, {{ artigo.ano }}.</p>
