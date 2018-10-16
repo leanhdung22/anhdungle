@@ -7,3 +7,4 @@ nav-menu: yes
 ---
 
 Under construction
+System on Chip (SOC) functional verification
