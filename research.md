@@ -6,5 +6,5 @@ image: assets/images/research.jpg
 nav-menu: yes
 ---
 
-Under construction
-System on Chip (SOC) functional verification
+ASIC design and verification
+System on Chip (SOC) functional verification </p>
