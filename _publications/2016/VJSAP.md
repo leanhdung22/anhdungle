@@ -1,10 +1,10 @@
 ---
-titulo: Wideband Left-handed Metamaterial: Analysis, Modelling and Testing of Antenna Gain Enhancement
+titulo: Wideband Left-handed Metamaterial - Analysis, Modelling and Testing of Antenna Gain Enhancement
 ano: 2016
-evento: Encontro Anual do Iecom em Comunicações, Redes e Criptografia
+evento: The 2016 Vietnam – Japan International Symposium on Antennas and Propagation
 autores:
-    - nome: Matheus de Araújo Cavalcante
-    - nome: Helder Alves Pereira
-    - nome: Daniel Augusto Ribeiro Chaves
-    - nome: Raul Camelo de Andrade Almeida Jr.
+    - nome: Nhu Huan NGUYEN
+    - nome: Anh Dung LE
+    - nome: Minh Thuy LE
+    - nome: Thi Duyen BUI
 ---
